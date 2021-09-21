@@ -3,8 +3,8 @@
     font-family: 'Marck Script', cursive;
     font-size: 5vh;
     color: black;
-    padding: 10px;
-    padding-top: 15px;
+    padding: 1vw;
+    padding-top: 1.25vw;
     transition: 0.3s;
 }
 .navbar-custom a:hover {
@@ -16,15 +16,22 @@ main {
     font-family: "Inconsolata", monospace;
     text-align: center;
     font-size: 2.5vh;
-    margin-top: 5vh;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-top: 4vh;
+    margin-left: auto;
+    margin-right: auto;
 }
     
 
 #profile-pic {
     height: 30vh;
+    width: 80%;
+    max-width: fit-content;
     border-radius: 10px;
+}
+@media(max-width: 375px) {
+    #profile-pic {
+        height: auto;
+    }
 }
 
 .name-color {
@@ -32,11 +39,12 @@ main {
 }
 
 #info-div {
-    margin-top: 4vw;
+    margin-top: 4vh;
 }
 
 #logo-div {
     font-size: 4vh;
+    margin-top: 3vh;
 }
 
 i {
