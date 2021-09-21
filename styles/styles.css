@@ -1,0 +1,63 @@
+/* Override boostrap navbar's default font */
+.navbar-custom a{
+    font-family: 'Marck Script', cursive;
+    font-size: 5vh;
+    color: black;
+    padding: 10px;
+    padding-top: 15px;
+    transition: 0.3s;
+}
+.navbar-custom a:hover {
+    color: #E67E22;
+    opacity: 1;
+}
+
+main { 
+    font-family: "Inconsolata", monospace;
+    text-align: center;
+    font-size: 2.5vh;
+    margin-top: 5vh;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+    
+
+#profile-pic {
+    height: 30vh;
+    border-radius: 10px;
+}
+
+.name-color {
+    color: #E67E22;
+}
+
+#info-div {
+    margin-top: 4vw;
+}
+
+#logo-div {
+    font-size: 4vh;
+}
+
+i {
+    padding: 1vw;
+    transition: 0.2s;
+}
+
+.fa-linkedin-in {
+    color: black;
+}
+
+.fa-github {
+    color: black;
+}
+
+.fa-medium {
+    color: black;
+}
+
+.fab:hover{
+    color: #E67E22;
+    opacity: 1;
+}
+
