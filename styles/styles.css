@@ -54,22 +54,9 @@ main {
 i {
     padding: 1vw;
     transition: 0.2s;
-}
-
-.fa-linkedin-in {
     color: black;
 }
-
-.fa-github {
-    color: black;
-}
-
-.fa-medium {
-    color: black;
-}
-
-.fab:hover{
+i:hover{
     color: #E67E22;
     opacity: 1;
 }
-
